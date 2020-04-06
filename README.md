@@ -10,3 +10,16 @@ Cela permet aussi de simplifie et sécuriser au maximum la création,l'utilisati
 
 Réponse : les encodeurs ne traiteront que de la transformation de formats spécifiques en tableaux et vice versa.
 De la même manière, les normalisateurs traiteront de la transformation d' objets spécifiques en tableaux et vice versa.
+
+# Qu'est-ce qu'un groupe de sérialisation ? A quoi sert-il ?
+
+Réponse : Nous avons la possibilité d’utiliser les groupes d’attributs pour sérialiser seulement une partie des propriétés d’un objet.
+Il est aussi possible de spécifier les attributs que l’on souhaite sérialiser/désérialiser.
+
+# Quelle est la différence entre la méthode PUT et la méthode PATCH ?
+
+Réponse : PUT met à jour la ligne, nous ne pouvons pas décider ce que l'on met à jour, tout est mis à jour.
+
+La définition simple, mais pas tout à fait précise de PATCH est la suivante: c'est comme PUT, sauf que vous n'avez pas besoin d'envoyer le corps de ressource entier, c'est à dire qu'une partie des données que l'on a sélectionné va être mis à jour.
+
+
