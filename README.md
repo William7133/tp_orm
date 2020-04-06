@@ -22,4 +22,10 @@ Réponse : PUT met à jour la ligne, nous ne pouvons pas décider ce que l'on me
 
 La définition simple, mais pas tout à fait précise de PATCH est la suivante: c'est comme PUT, sauf que vous n'avez pas besoin d'envoyer le corps de ressource entier, c'est à dire qu'une partie des données que l'on a sélectionné va être mis à jour.
 
+# Quels sont les différents types de relation entre entités pouvant être mis en place avec Doctrine ?
+
+Réponse : il existe 5 relations : 
+
+relation one-to-one, relation many-to-one, relation many-to-many, relation one-to-many, relations bidirectionnelles.
+
 
