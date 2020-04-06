@@ -29,3 +29,6 @@ Réponse : il existe 5 relations :
 relation one-to-one, relation many-to-one, relation many-to-many, relation one-to-many, relations bidirectionnelles.
 
 
+# Qu'est-ce qu'un Trait en PHP et à quoi peut-il servir ?
+
+Les traits sont un mécanisme de réutilisation de code dans un langage à héritage simple tel que PHP. Un trait tente de réduire certaines limites de l'héritage simple, en autorisant le développeur à réutiliser un certain nombre de méthodes dans des classes indépendantes
